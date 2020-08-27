@@ -112,7 +112,3 @@ form textarea {
     resize: none;
     border: 1px solid rgb(135, 135, 135);
 }
-
-form textarea[placeholder="Possui alguma dúvida?"] {
-    color: red;
-}
