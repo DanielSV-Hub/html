@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>Título do meu site</title>
+		<meta charset="utf-8" />
+		<link href="css/main.css" type="text/css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		
+			<form action="">
+				<fieldset>
+					<legend>formulário</legend>
+					<div><input type="text" name="name" placeholder="Digite seu nome" /></div>
+					<div></div><input type="text" name="name" placeholder="Digite seu email" /></div>
+					<div></div><input type="text" name="name" placeholder="Digite seu telefone" /></div>
+					<div><!--div1-->
+						<select name="lista">
+							<option disabled selected>Qual sua idade?</option>
+							<option>Menos de 12</option>
+							<option>entre 12 e 18</option>
+							<option>mais de 18</option>
+						</select>
+					</div><!--div1-->
+					
+					<h2>Qual sua cidade?</h2>
+					<div class="input">
+						<div>
+							<input type="radio" name="cidade" value="Teresina"><span>Teresina</span>
+						</div>
+						<div>
+							<input type="radio" name="cidade"
+							value="São Paulo"><span>São Paulo</span>
+						</div>
+						<div>
+							<input type="radio" name="cidade" value="Fortaleza"><span>Fortaleza</span>
+						</div>
+					</div><!--input-->
+					<h2>O que você gosta de comer?</h2>
+					<div class="input checkbox">
+						<div>
+							<input type="checkbox" name="comida"><span>Chocolate</span>
+						</div>
+						<div>
+							<input type="checkbox" name="comida"><span>Biscoito</span>
+						</div>
+						<div>
+							<input type="checkbox" name="comida"><span>Arroz e Feijão</span>
+						</div>
+					</div><!--checkbox-->
+					
+					<div>
+						<textarea placeholder="Possui alguma dúvida?"></textarea>
+					</div>
+					
+					<div><!--enviar-->
+						<input type="submit" name="action" value="Enviar!">  
+					</div><!--enviar-->
+				</fieldset>
+			</form>
+
+	</body>
+
+</html>

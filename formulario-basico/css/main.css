@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+form {
+    width: 96%;
+    max-width: 600px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+form fieldset {
+    padding: 0 40px;
+    border: 1px dashed rgb(135, 135, 135);
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+form legend {
+    text-align: initial;
+    font-size: 40px;
+    font-weight: 700;
+    color: teal;
+}
+
+form input[type="text"] {
+    margin: 10px 0;
+    width: 80%;
+    padding: 5px 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+form input[type="text"]:focus, form select:focus, textarea:focus {
+    outline: none;
+}
+
+form select {
+    width: calc(80% + 20px);
+    margin: 10px 0;
+    padding: 5px 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    border: 1px solid rgb(135, 135, 135);
+    color: rgb(135, 135, 135);
+}
+
+form h2 {
+    font-variant-caps: all-small-caps;
+    margin-bottom: 5px;
+}
+
+form select option[disabled] {
+    color: purple;
+}
+
+.input {
+    text-align: left;
+    display: inline-block;
+}
+
+.input input{
+    cursor: pointer;
+}
+
+.input span {
+    margin: 0 10px;
+}
+
+h2 {
+    color: rgb(135, 135, 135);
+}
+
+.checkbox {
+    padding-bottom: 10px;
+}
+
+.checkbox input[type='checkbox']:checked {
+   color: red;
+}
+
+form input[type="submit"] {
+    width: 140px;
+    height: 40px;
+    margin: 20px 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:focus {
+    outline: none;
+    color: purple;
+}
+
+form textarea {
+    margin: 10px 0;
+    width: 80%;
+    height: 50px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    resize: none;
+    border: 1px solid rgb(135, 135, 135);
+}
+
+form textarea[placeholder="Possui alguma dúvida?"] {
+    color: red;
+}
